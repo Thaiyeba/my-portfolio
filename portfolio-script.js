@@ -3,7 +3,7 @@
 ================================ */
 const frameCount = 200;
 const imagePath = index =>
-  `images/ezgif-frame-${String(index).padStart(3, "0")}.jpg`;
+  `Images/ezgif-frame-${String(index).padStart(3, "0")}.jpg`;
 
 const canvas = document.getElementById("scroll-canvas");
 const ctx = canvas.getContext("2d");
