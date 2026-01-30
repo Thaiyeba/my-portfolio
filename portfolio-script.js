@@ -1,7 +1,7 @@
 /* ===============================
    CANVAS ANIMATION CONFIGURATION
 ================================ */
-const frameCount = 200;
+const frameCount = 205;
 const imagePath = index =>
   `Images/ezgif-frame-${String(index).padStart(3, "0")}.jpg`;
 
